@@ -1,6 +1,6 @@
 [control-plane]
-raspberrypi-1 ansible_host=192.168.3.100 ansible_port=22 ansible_user=pi ansible_ssh_private_key_file=~/.ssh/id_rsa
+raspberrypi-2 ansible_host=192.168.3.101 ansible_port=22 ansible_user=pi ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 [node]
-raspberrypi-2 ansible_host=192.168.3.101 ansible_port=22 ansible_user=pi ansible_ssh_private_key_file=~/.ssh/id_rsa
+raspberrypi-1 ansible_host=192.168.3.100 ansible_port=22 ansible_user=pi ansible_ssh_private_key_file=~/.ssh/id_rsa
 raspberrypi-3 ansible_host=192.168.3.102 ansible_port=22 ansible_user=pi ansible_ssh_private_key_file=~/.ssh/id_rsa
